@@ -13,7 +13,9 @@ class ZapatoDescPage extends StatelessWidget {
         children: [
           Stack(
             children: [
-              ZapatoSizePreview(fullScreen: true),
+              Hero(
+                tag: 'zapato-1',
+                child: ZapatoSizePreview(fullScreen: true)),
               Positioned(
                 top: 80,
                 child: FloatingActionButton(
